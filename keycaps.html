@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastaturer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="https://use.fontawesome.com/e503b5e019.js"></script>
+    <link rel="icon" href="./bilder/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/groups/267449644283455">
+                <img src="./bilder/fb.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/MKeyboards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./bilder/tw.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/mechanical.keyboards/?hl=en">
+                <img src="./bilder/insta.png" alt="Instagram logo">
+            </a>
+        </div>
+        <div class="over-nav">
+            <div class="logo">
+                <img id="img" src="./bilder/logo.jpg" alt="Bilde av tastaturbrytere som har tastaturer p&amp;aring;">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="S&oslash;k...">
+                <div class="search"></div>
+            </div>
+        </div>
+        <img src="./bilder/line.png" alt="Gradient linje" id="gradientLine">
+        <nav class="flex-container">
+            <div class="home">
+                <a href="home.html"><i class="fa fa-home blue" aria-hidden="true"></i>Hjem </a>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='history.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    F&oslash;rste tastaturen</button>
+                <div class="dropdown-content">
+                    <a href="history.html#skrivemaskin"> Skrivemaskiner</a>
+                    <a href="history.html#data">F&oslash;rste data tastaturer </a>
+                    <a href="history.html#utvikling">Utvikling til idag </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='keycaps.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Keycaps</button>
+                <div class="dropdown-content">
+                    <a href="keycaps.html#pbt">Pbt</a>
+                    <a href="keycaps.html#abs">Abs</a>
+                    <a href="keycaps.html#metal">Metal</a>
+                    <a href="keycaps.html#gummi">Gummi </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='switches.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    Switches</button>
+                <div class="dropdown-content">
+                    <a href="switches.html#rubber-dome">Laptop brytere</a>
+                    <a href="switches.html#mekaniske-brytere">Mekaniske brytere</a>
+                    <a href="switches.html#popular">Popul&aelig;re brytere</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='cherrymx.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Cherry MX</button>
+                <div class="dropdown-content">
+                    <a href="cherrymx.html#Om-cherry-mx">Om CherryMx</a>
+                    <a href="cherrymx.html#Klassiske-brytere">Klassiske-brytere</a>
+                    <a href="cherrymx.html#Red">CherryMx Red</a>
+                    <a href="cherrymx.html#blue">CherryMx blue</a>
+                    <a href="cherrymx.html#Brown">CherryMx Brown</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='sizes.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    St&oslash;rrelser</button>
+                <div class="dropdown-content">
+                    <a href="sizes.html#full">Full St&oslash;rrelse</a>
+                    <a href="sizes.html#tkl">Tkl</a>
+                    <a href="sizes.html#60">60%</a>
+                    <a href="sizes.html#75">75%</a>
+                    <a href="sizes.html#40">40%</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='popular-keyboards.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Popul&aelig;re tastaturer</button>
+                <div class="dropdown-content">
+                    <a href="popular-keyboards.html#Razer">Razer</a>
+                    <a href="popular-keyboards.html#Ducky">Ducky </a>
+                    <a href="popular-keyboards.html#HyperX">HyperX</a>
+                    <a href="popular-keyboards.html#Corsair">Corsair</a>
+                    <a href="popular-keyboards.html#Annet">Andre</a>
+                </div>
+            </div>
+            <div class="dropdown-small">
+                <button class="dropbtn" onclick="location.href='home.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Meny</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Hjem</a>
+                    <a href="history.html">Historie </a>
+                    <a href="keycaps.html">Keycaps</a>
+                    <a href="switches.html">Brytere </a>
+                    <a href="cherrymx.html">Cherry Mx</a>
+                    <a href="sizes.html">St&oslash;rresler</a>
+                    <a href="popular-keyboards.html">Popul&aelig;re tastaturer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background">
+            <div class="layer">
+                <div class="article">
+                    <h2 class="title">Keycaps</h2>
+                    <h3 class="title"><a id="abs"></a>ABS</h3>
+                    <img src="./bilder/abs.jpg" alt="ABS keycaps">
+                    <p>
+                        Den mest grunnleggende plasten for alle nøkkelkapper. Disse kommer med de gjennomsnittlige
+                        tastaturknappene på plasten. Plasten er veldig myk (bøyd når den blir hardt rammet) og de
+                        føles glatte. Utskriftsmetodene for ABS er Double-Shot, Pad Printing, UV Printing, Lasering,
+                        Gravering, Pad Printing & Coating, etc.
+                    </p>
+                    <h3 class="title"><a id="pbt"></a>PBT</h3>
+                    <img src="./bilder/pbt.jpg" alt="PBT keycaps">
+                    <p>
+                        PBT er kjent for å være en bedre plast enn ABS. PBT er bedre slik det føles, og fordi det
+                        aldri skinner etter lang bruk. De fleste PBT-tastetrykk finnes på ettermarkedet. De kommer
+                        på lager på noen få tastaturer (dvs. Ducky, Pok3r, HHKB og Realforce). Denne plasten er hard
+                        og har et mer strukturert preg. Den populære utskriftsmetoden er Dye-Sublimation. Bare nylig
+                        har Double-Shot blitt brukt med PBT-tastatur for å gi en mer skarp legende. PBT double-shot
+                        tillater også bruk av lette legender på en mørkere grunnfarge. Dette er noe som ikke kan
+                        gjøres med fargesublimering. Noen PBT keycaps som er veldig populare er <a
+                            href="https://www.hyperxgaming.com/en/keyboards/keyboard-accessories/hyperx-pudding-keycaps">HyperX
+                            pudding keycaps</a> som er designet for storst RGB effekt fra tastaturen.
+                    </p>
+                    <h3 class="title"><a id="metal"></a>Metal</h3>
+                    <img src="./bilder/metal.jpg" alt="Metal keycaps">
+                    <p>
+                        Metall keycaps kan lages av alle slags metall, men mest populære er aluminium. De kan brukes
+                        til alle tastene for å få en mer skrivemaskinfølelse, men de brukes vanligvis bare på asdw-
+                        eller asdfgh-tastene, fordi disse mest brukes i spill. De er metall, slik at de ikke blir
+                        utslitt av konstant bruk.
+                    </p>
+                    <h3 class="title"><a id="gummi"></a>Gummi</h3>
+                    <img src="./bilder/gummi.jpg" alt="gummi keycaps">
+                    <p>
+                        Gummierte keycaps er mer eller mindre det de høres ut som - keycaps som er belagt i gummi,
+                        men med tekstur lagt til toppen av dem. Hettene ligner noe en bruker kan finne når du åpner
+                        en Corsair-tastaturboks, som vanligvis har ekstra WASD-hatter som har tekstur og har en
+                        annen farge. Med gummierte hetter blir denne ideen tatt til neste nivå.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Gummibelegget gir bedre fingergrep når du spiller, og kan være til fordel for spillere som
+                        gjør hoppet til PC-spill for første gang. Å ha et gummibelegg gir brukerne litt mer
+                        tilgivelse når det gjelder "fettfingring" feil nøkkel under en spilløkt.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

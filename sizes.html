@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastaturer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="https://use.fontawesome.com/e503b5e019.js"></script>
+    <link rel="icon" href="./bilder/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/groups/267449644283455">
+                <img src="./bilder/fb.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/MKeyboards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./bilder/tw.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/mechanical.keyboards/?hl=en">
+                <img src="./bilder/insta.png" alt="Instagram logo">
+            </a>
+        </div>
+        <div class="over-nav">
+            <div class="logo">
+                <img id="img" src="./bilder/logo.jpg" alt="Bilde av tastaturbrytere som har tastaturer p&amp;aring;">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="S&oslash;k...">
+                <div class="search"></div>
+            </div>
+        </div>
+        <img src="./bilder/line.png" alt="Gradient linje" id="gradientLine">
+        <nav class="flex-container">
+            <div class="home">
+                <a href="home.html"><i class="fa fa-home blue" aria-hidden="true"></i>Hjem </a>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='history.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    F&oslash;rste tastaturen</button>
+                <div class="dropdown-content">
+                    <a href="history.html#skrivemaskin"> Skrivemaskiner</a>
+                    <a href="history.html#data">F&oslash;rste data tastaturer </a>
+                    <a href="history.html#utvikling">Utvikling til idag </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='keycaps.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Keycaps</button>
+                <div class="dropdown-content">
+                    <a href="keycaps.html#pbt">Pbt</a>
+                    <a href="keycaps.html#abs">Abs</a>
+                    <a href="keycaps.html#metal">Metal</a>
+                    <a href="keycaps.html#gummi">Gummi </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='switches.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    Switches</button>
+                <div class="dropdown-content">
+                    <a href="switches.html#rubber-dome">Laptop brytere</a>
+                    <a href="switches.html#mekaniske-brytere">Mekaniske brytere</a>
+                    <a href="switches.html#popular">Popul&aelig;re brytere</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='cherrymx.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Cherry MX</button>
+                <div class="dropdown-content">
+                    <a href="cherrymx.html#Om-cherry-mx">Om CherryMx</a>
+                    <a href="cherrymx.html#Klassiske-brytere">Klassiske-brytere</a>
+                    <a href="cherrymx.html#Red">CherryMx Red</a>
+                    <a href="cherrymx.html#blue">CherryMx blue</a>
+                    <a href="cherrymx.html#Brown">CherryMx Brown</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='sizes.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    St&oslash;rrelser</button>
+                <div class="dropdown-content">
+                    <a href="sizes.html#full">Full St&oslash;rrelse</a>
+                    <a href="sizes.html#tkl">Tkl</a>
+                    <a href="sizes.html#60">60%</a>
+                    <a href="sizes.html#75">75%</a>
+                    <a href="sizes.html#40">40%</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='popular-keyboards.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Popul&aelig;re tastaturer</button>
+                <div class="dropdown-content">
+                    <a href="popular-keyboards.html#Razer">Razer</a>
+                    <a href="popular-keyboards.html#Ducky">Ducky </a>
+                    <a href="popular-keyboards.html#HyperX">HyperX</a>
+                    <a href="popular-keyboards.html#Corsair">Corsair</a>
+                    <a href="popular-keyboards.html#Annet">Andre</a>
+                </div>
+            </div>
+            <div class="dropdown-small">
+                <button class="dropbtn" onclick="location.href='home.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Meny</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Hjem</a>
+                    <a href="history.html">Historie </a>
+                    <a href="keycaps.html">Keycaps</a>
+                    <a href="switches.html">Brytere </a>
+                    <a href="cherrymx.html">Cherry Mx</a>
+                    <a href="sizes.html">St&oslash;rresler</a>
+                    <a href="popular-keyboards.html">Popul&aelig;re tastaturer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background">
+            <div class="layer">
+                <div class="article">
+                    <h2>Størrelser av tastaturer</h2>
+                    <h3 class="title"><a id="#full">Full størrelse 100%</a></h3>
+                    <img src="./bilder/full-size.jpg" alt="Tastatur">
+                    <p>
+                        Perfekt for mange oppføringer
+                        Tastaturer i full størrelse er et alternativ for folk som trenger å gjøre mye dataregistrering
+                        og krever hyppig bruk av talltastaturet. Tastatur i full størrelse er standard på kontorer og er
+                        det folk flest tenker på når de forestiller seg et tastatur. Tastaturene i full størrelse kommer
+                        som standard med et talltastatur, hjemmeklynge, funksjonstaster og piltaster. Nummertastaturet
+                        er vanligvis plassert til høyre, men noen tastaturer følger med til venstre.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Komfortabel, men klumpete
+                        Tastatur i full størrelse er flott for alle som trenger å ha et allsidig utvalg av nøkler til
+                        rådighet, enten det er for spill, arbeid eller til og med bare å surfe på internett. De kan
+                        tilby
+                        mange alternativer for programmerbare taster og er enkle å skrive på, siden ingen av tastene er
+                        på
+                        et lavere lag, bortsett fra de vanlige.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Noen ganger dyrere
+                        Det er viktig å huske på at mekaniske tastaturer i full størrelse kan være litt dyrere enn
+                        mindre
+                        størrelser fordi de krever mange ekstra brytere og nøkkelord for å fullføre bygningen. Det er
+                        kanskje ikke mulig å bygge et tilpasset tastatur i full størrelse på grunn av kostnadene, men
+                        det er
+                        mulig å finne forhåndsbygde til relativt billig.
+                    </p>
+
+                    <h3 class="title"><a id="tkl">Tenkeyless (TKL)</a></h3>
+                    <img src="./bilder/tkl.png" alt="TKL tastatur">
+                    <p>
+                        Tenkeyless tastaturer har vanligvis 87 taster, det perfekte oppsettet for å balansere størrelse
+                        og funksjonalitet. I motsetning til tastaturer i full størrelse har de ikke et talltastatur som
+                        gjør tastaturet mer kompakt og lettere å ta med på farten. De fleste bruker ikke talltastaturet
+                        tungt, så de er i stand til å kvitte seg med ekstra bagasje uten at det påvirker skrivingen for
+                        mye. Hvis du vil sjekke ut noen flere TKL-tastaturer, følg lenken til dette innlegget.
+                        Kompakt og behagelig
+                        Et mer kompakt tastatur gir også mer plass på skrivebordet, slik at du mer komfortabelt kan
+                        skrive
+                        notater i et notisblokk på siden av tastaturet uten å føle deg begrenset av plassmangel. I
+                        tillegg
+                        vil musen være mye nærmere hånden din når du skriver, så du må reise mye mindre for å nå frem
+                        til
+                        musen.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Tenkeyless-tastaturer har fremdeles piltastene, hjemmeklyngen og funksjonstastene, så du bør
+                        fortsatt kunne spille og skrive komfortabelt. Du vil være i stand til å finne mange forskjellige
+                        mekaniske tastaturer som ikke er nøkkelfri til salgs, fordi de fleste tastaturer vanligvis
+                        kommer
+                        med en kompakt TKL-ekvivalent.
+                    </p>
+                    <h3 class="title"><a id="75">75%</a></h3>
+                    <img src="./bilder/75.jpg" alt="75% tastatur">
+                    <p>
+                        75% tastatur har et interessant design. De er en litt mer kompakt versjon av et holdeløst bord,
+                        de plasserer piltastene og hjemmeklyngen rett ved siden av hverandre og retter hjemmeklyngen
+                        loddrett for å spare plass. Dette gjør at alt kan pakkes tett og tett. Det er mye mindre 75%
+                        tastaturer på markedet, så alternativene dine vil være begrenset. Heldigvis har vi satt sammen
+                        våre favoritt tastaturer på 75% slik at du enkelt kan finne dem.
+                        Veldig liten justeringsperiode
+                        Det kan ta litt tid å venne seg til noen av de merkelige nøkkelstørrelsene og plasseringen. For
+                        eksempel er høyre skiftnøkkel vanligvis mye mindre enn vanlig, og det vil ta litt tid å bygge
+                        muskelminnet til hvor den nye hjemmeklyngen ligger. Heldigvis brukes ikke disse tastene for
+                        ofte, så
+                        det bør ikke påvirke å skrive for mye. Hvis du er fan av å kjøpe tilpassede tastaturdeksler, kan
+                        det
+                        hende du må søke litt ekstra for å finne et sett som fungerer med 75% layout, på grunn av noen
+                        av de
+                        merkelige nøkkelstørrelsene.
+                    </p>
+                    <h3 class="title"><a id="60">60% tastatur</a></h3>
+                    <img src="./bilder/60.jpg" alt="60% tastatur">
+                    <p>
+                        60% tastatur: veldig populært og lett å finne
+                        60% tastatur er populært i tastaturfellesskapet for spill og mekanisk tastatur. Ikke helt vanlig
+                        som TKL eller fullstørrelse, men det er mange forskjellige 60% tastaturer tilgjengelig online.
+                        På grunn av sin lille, kompakte og symmetriske form er de den vanligste størrelsen for
+                        tilpassede tastaturbygg.
+                        Billigere å kjøpe og bygge deg selv
+                        På grunn av deres mindre størrelse kan det være relativt billig å kjøpe brytere og nøkkelord for
+                        spesiallagde bygg, pluss at det finnes en rekke forskjellige PCB-oppsett og koffertdesign
+                        spesielt
+                        for 60% tastaturer. Pre-build tastaturer er også ganske billige, du kan finne ganske gode tilbud
+                        hvis du er villig til å falle til 60% tastaturstørrelse.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Kan være for liten for noen
+                        Et 60% -tastatur kan være utenfor komfortsonen for de fleste, mangel på piltaster, hjemmeklynge,
+                        talltastatur og funksjonsrad, kan få skriving til å føles som en helt ny ferdighet å lære. Folk
+                        som
+                        kjøper og bruker tastatur på 60%, bør vite hva de går inn i før de kjøper. For noen mennesker
+                        vil
+                        det ikke påvirke skriveopplevelsen for mye, men rettferdig advarsel til de som vil prøve
+                        størrelsen.
+                    </p>
+                    <h3 class="title"><a id="40">40% tastaturer</a></h3>
+                    <img src="./bilder/40.jpeg" alt="40% tastaturer">
+                    <p>
+                        Det minste tastaturet du fremdeles kan skrive på
+                        40% tastaturer er det mest tilgjengelige tastaturet som du fremdeles kan skrive på. På toppen av
+                        alt som er fjernet for 60% tastaturer (ingen talltastatur, funksjonsrad, piltaster,
+                        hjemmeklynge), blir 40% tastaturer også kvitt alle tallene på øverste rad. Det stemmer, det er
+                        ingen tall på dette tastaturoppsettet. I tillegg kvitter du deg med alle ikke-bokstavtastene som
+                        semikolon, anførselstegn osv.
+                        Lang justeringsperiode
+                        Hvis du vil bli dyktig å skrive med et 40% -tastatur, må du venne deg til å skifte lag ofte for
+                        å
+                        kunne legge inn tall og symboler. Dette vil kreve mye tid å venne seg til, men ved å gjøre dette
+                        sparer du mye plass på skrivebordet ditt og har et lett og kompakt tastatur å ta med på farten.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Vanskelig å finne
+                        På grunn av hvor rart disse kan være å skrive på, er det ikke veldig stor etterspørsel etter 40%
+                        tastatur, så de er ikke tilgjengelige fra de vanlige tastaturprodusentene. I stedet må du kjøpe
+                        delene online og montere selv eller finne en gruppe som kjøper online for å få en skreddersydd.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

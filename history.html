@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastaturer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="https://use.fontawesome.com/e503b5e019.js"></script>
+    <link rel="icon" href="./bilder/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/groups/267449644283455">
+                <img src="./bilder/fb.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/MKeyboards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./bilder/tw.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/mechanical.keyboards/?hl=en">
+                <img src="./bilder/insta.png" alt="Instagram logo">
+            </a>
+        </div>
+        <div class="over-nav">
+            <div class="logo">
+                <img id="img" src="./bilder/logo.jpg" alt="Bilde av tastaturbrytere som har tastaturer p&amp;aring;">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="S&oslash;k...">
+                <div class="search"></div>
+            </div>
+        </div>
+        <img src="./bilder/line.png" alt="Gradient linje" id="gradientLine">
+        <nav class="flex-container">
+            <div class="home">
+                <a href="home.html"><i class="fa fa-home blue" aria-hidden="true"></i>Hjem </a>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='history.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    F&oslash;rste tastaturen</button>
+                <div class="dropdown-content">
+                    <a href="history.html#skrivemaskin"> Skrivemaskiner</a>
+                    <a href="history.html#data">F&oslash;rste data tastaturer </a>
+                    <a href="history.html#utvikling">Utvikling til idag </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='keycaps.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Keycaps</button>
+                <div class="dropdown-content">
+                    <a href="keycaps.html#pbt">Pbt</a>
+                    <a href="keycaps.html#abs">Abs</a>
+                    <a href="keycaps.html#metal">Metal</a>
+                    <a href="keycaps.html#gummi">Gummi </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='switches.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    Switches</button>
+                <div class="dropdown-content">
+                    <a href="switches.html#rubber-dome">Laptop brytere</a>
+                    <a href="switches.html#mekaniske-brytere">Mekaniske brytere</a>
+                    <a href="switches.html#popular">Popul&aelig;re brytere</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='cherrymx.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Cherry MX</button>
+                <div class="dropdown-content">
+                    <a href="cherrymx.html#Om-cherry-mx">Om CherryMx</a>
+                    <a href="cherrymx.html#Klassiske-brytere">Klassiske-brytere</a>
+                    <a href="cherrymx.html#Red">CherryMx Red</a>
+                    <a href="cherrymx.html#blue">CherryMx blue</a>
+                    <a href="cherrymx.html#Brown">CherryMx Brown</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='sizes.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    St&oslash;rrelser</button>
+                <div class="dropdown-content">
+                    <a href="sizes.html#full">Full St&oslash;rrelse</a>
+                    <a href="sizes.html#tkl">Tkl</a>
+                    <a href="sizes.html#60">60%</a>
+                    <a href="sizes.html#75">75%</a>
+                    <a href="sizes.html#40">40%</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='popular-keyboards.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Popul&aelig;re tastaturer</button>
+                <div class="dropdown-content">
+                    <a href="popular-keyboards.html#Razer">Razer</a>
+                    <a href="popular-keyboards.html#Ducky">Ducky </a>
+                    <a href="popular-keyboards.html#HyperX">HyperX</a>
+                    <a href="popular-keyboards.html#Corsair">Corsair</a>
+                    <a href="popular-keyboards.html#Annet">Andre</a>
+                </div>
+            </div>
+            <div class="dropdown-small">
+                <button class="dropbtn" onclick="location.href='home.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Meny</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Hjem</a>
+                    <a href="history.html">Historie </a>
+                    <a href="keycaps.html">Keycaps</a>
+                    <a href="switches.html">Brytere </a>
+                    <a href="cherrymx.html">Cherry Mx</a>
+                    <a href="sizes.html">St&oslash;rresler</a>
+                    <a href="popular-keyboards.html">Popul&aelig;re tastaturer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="background">
+            <div class="layer">
+                <div class="article">
+                    <h2 class="title"> Historie </h2>
+                    <h3 class="title"><a id="skrivemaskin"></a>Skrivemaskiner</h3>
+                    <div class="grid-historie">
+                        <div class="col-right"><img src="./bilder/typewriter.png" alt="bilde av en gammel skrivemaskin">
+                            <p>
+                                Oppfinnelsen av det moderne tastaturet kan spores tilbake til
+                                oppfinnelsen av skrivemaskinen. S&aring;, hvem oppfant skrivemaskinen?
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                F&oslash;rst (kjent for oss) var Francesco Rampazzetto (1510-1576), Prior of the Guild
+                                of
+                                Booksellers and Printers in Venice (Venezia), som oppfant i 1575 scrittura tattile, en
+                                maskin for &aring; imponere bokstaver p&aring; papir (det ser ut til at maskinen var et
+                                hjelpeapparat
+                                for blinde).
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                Henry Mill var innehaver av to engelske patenter - &#8470;376 fra 1706 og &#8470;395 fra
+                                1714.
+                                Den
+                                f&oslash;rste var for Springs for busser, vogner og andre kj&oslash;ret&oslash;yer (en
+                                slags
+                                st&oslash;tdemper). Det
+                                andre patentet (datert 7. januar 1714) var for Machine for Transcribing Letters, som ser
+                                ut
+                                til &aring; ha v&aelig;rt ganske lik en moderne skrivemaskin.
+                            </p>
+                            <p>&nbsp;nbsp;</p>
+                            <p>
+                                Vi har ikke tegning av maskinen, og det er ingen gjenv&aelig;rende oversikt over at
+                                Henry
+                                Mill
+                                faktisk bygget den.
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                I f&oslash;lge legenden hadde Pellegrino Turri forelsket seg i den vakre grevinnen
+                                Carolina
+                                Fantoni
+                                da Fivizzano (1781-1841), en nev&oslash; av den italienske poeten Labindo. Den unge
+                                kontessas
+                                visjon sakte, forvrenger og blekner sakte. S&aring; i h&aring;p om &aring; forbedre
+                                hennes
+                                uleselige
+                                skriving
+                                og for &aring; gj&oslash;re det mulig for henne &aring; korrespondere med vennene sine
+                                (inkludert ham)
+                                privat,
+                                laget Turri p&aring; begynnelsen av 1800-tallet en maskin laget av n&oslash;kler og
+                                metallarmer
+                                med
+                                hevede tegn. Da grevinnen presset en n&oslash;kkel, slo en arm et stykke karbonpapir
+                                opp&aring;
+                                et
+                                ark.
+                            </p>
+                        </div>
+                        <div class="col-left"> <img src="./bilder/6388759_sd.jpg" alt="En moderne skrivemaskin">
+                            <p>
+                                Som med mange andre moderne maskiner, som fly, bil, telefon, TV
+                                osv.,
+                                Bidro en rekke mennesker med innsikt og oppfinnelser som til slutt resulterte i et
+                                kommersielt vellykket produkt, det samme skjedde med oppfinnelsen av skrivemaskinen (og
+                                tastaturet p&aring; datamaskinen).
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                S&aring; m&oslash;ter vi engelskmannen Henry Mill (1683-1771), en vannverkstekniker i
+                                New
+                                River
+                                Company
+                                (som administrerte New River - en kunstig vannvei i England, &aring;pnet i 1613 for
+                                &aring;
+                                forsyne
+                                London med ferskvann).
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>
+                                Patentet uttalte: ... V&aring;r p&aring;litelige og kj&aelig;reste Henry Mill, gent.,
+                                Har av
+                                sin
+                                petitcon
+                                ydmykt representert at han ved sin store studie og smerte og kostnad oppfunnet og brakt
+                                til
+                                perfeksjon en kunstig maskin eller metode for &aring; imponere eller transkribere
+                                bokstaver,
+                                den
+                                ene etter den andre, som skriftlig, der all skrift overhodet kan v&aelig;re oppslukt av
+                                papir
+                                eller pergament s&aring; pent og n&oslash;yaktig at det ikke skilles fra trykk; at den
+                                nevnte
+                                maskinen
+                                eller metoden kan v&aelig;re til stor nytte i bosetninger og publiseringsjournaler,
+                                inntrykket
+                                er
+                                dypere og mer varig enn noe annet skrift, og ikke &aring; bli slettet eller forfalsket
+                                uten
+                                &aring;penbar oppdagelse.
+                            </p>
+                            <p>&nbsp;</p>
+                            <p> Den f&oslash;rste arbeidsmodellen til en skrivemaskin ble laget av italienske Giuseppe
+                                Pellegrino
+                                Turri, en edel og dyktig mekaniker, tidlig p&aring; 1800-tallet. Turri oppfant
+                                ogs&aring;
+                                karbonpapir
+                                for &aring; gi blekket til maskinen sin. Nesten ingenting er kjent om maskinen, men noen
+                                av
+                                bokstavene som er skrevet p&aring; den har overlevd (16 bokstaver er bevart i et museum
+                                i
+                                Reggio
+                                Emilia).
+                            </p>
+                        </div>
+
+                    </div>
+                    <h3 class="title"><a id="data"></a>Data tastaturer</h3>
+                    <p><img src="./bilder/BINAC-computer.jpg" alt="En av de f&oslash;rste datamskiner-Binac datamaskin">
+                    <p>
+                        Mens skrivemaskiner ble brukt mye gjennom 1950- og 1970-tallet, begynte
+                        datamaskiner &aring; fremst&aring; som et forbrukervennlig produkt, og begynte alderen p&aring;
+                        tastaturet som
+                        en
+                        prim&aelig;r inngangsenhet. For &aring; forst&aring; utviklingen av tastaturet, er det viktig
+                        &aring; forst&aring;
+                        utviklingen
+                        og utviklingen av datamaskinen. I 1946 ble den f&oslash;rste datamaskinen, ENIAC konstruert, og
+                        teletype ble brukt til &aring; legge inn data. Som du kan se nedenfor, tok ENIAC-datamaskinen et
+                        helt
+                        rom, hundrevis av ganger st&oslash;rre enn den moderne b&aelig;rbare datamaskinen. Hva var
+                        teletype,
+                        og
+                        hvordan er den forskjellig fra moderne tastaturinngang?
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        UNIVAC Teletype
+                        Teletype- og ENIAC-datamaskiner brukte kort (lignet p&aring; indekskort) som ble satt inn i
+                        teletypen
+                        mens en serie hull kalt tastetrykk ville bli stanset inn i kortene i henhold til hvilke
+                        taster
+                        ble trykket p&aring; teletypemaskinen. Etter at kortene ble tastet av datamaskinen, ble de
+                        overf&oslash;rt
+                        til en kortleser som ville analysere kortstokken som data (h&aring;ndfast minne).
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        1960 Keypunch Reader med tillatelse fra Computer History Museum
+                        I 1948 brukte BINAC-datamaskinen en annen inn / ut-metode, med en elektromagnetisk styrt
+                        teletype for &aring; legge inn data og skrive ut resultater. BINAC er det som banet vei for
+                        formen
+                        p&aring;
+                        datamaskiner og tastaturer, selv om det fremdeles vil ta noen flere ti&aring;r &aring; bevege
+                        seg
+                        bort
+                        fra
+                        teletype / punchcard-datamaskiner. En annen punchcard-datamaskin som var popul&aelig;r p&aring;
+                        den
+                        tiden,
+                        var UNIVAC I, produsert i 1951, er ogs&aring; avbildet nedenfor.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        1940-tallet ENIAC Keypunch Printer and Card Sorter i drift. Bilde med tillatelse fra
+                        Computer
+                        History Museum
+                        UNIVAC datamaskin
+                        1960-tallet UNIVAC-datamaskin i drift. Legg merke til teletype-inngangsenheten til venstre
+                        for
+                        ham. Hilsen av Computer History Museum
+                        I 1964 ble Bell Labs og M.I.T. opprettet MULTICS-datamaskinen, et tidsdelingssystem for
+                        flere
+                        brukere med VDT, en videoterminal. Tekst var umiddelbart synlig p&aring; skjermen mens den ble
+                        skrevet, noe som gjorde kommunikasjonskommandoer, programmer og kontroller til datamaskiner
+                        mer
+                        effektive enn tidligere metatypemetoder for inndata. P&aring; slutten av 1970-tallet brukte alle
+                        datamaskiner VDT og elektriske tastaturer. Det var rett og slett den mest enkle og
+                        brukervennlige metoden for samhandling med datamaskiner (ingen bunke kort for &aring; sl&aring;
+                        hull
+                        i
+                        og
+                        holde orden). De f&oslash;rste tastaturene som ble solgt p&aring; 1970-tallet, ble alle bygget
+                        fra
+                        bunnen
+                        av,
+                        stykke for stykke, og var tunge da de var helt mekaniske. Siden det trengtes s&aring; mye tid og
+                        krefter for &aring; lage disse tastaturene, og siden m&aring;lmarkedet prim&aelig;rt var
+                        dataprogrammerere og
+                        ingeni&oslash;rer, ble de bygget for funksjon og ikke for visuell estetikk. Dette betydde at det
+                        ikke
+                        var et tastaturdeksel eller skap, noe som gjorde tastaturet mer eller mindre eksponert.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        1970-tallet Altiar Computer med eksponert tastatur med tillatelse fra Computer History
+                        Museum
+                        Det var ogs&aring; tastaturer som ble bygget inn i personlige datamaskiner p&aring; den tiden.
+                        P&aring;
+                        midten
+                        av
+                        1970-tallet opprettet Imsai og Altair de f&oslash;rste sm&aring; PC-ene for forbrukerbruk,
+                        vanligvis
+                        referert
+                        til som S100-datasystemene. Disse maskinene ble bygget stykke for stykke, og ga det
+                        viktigste.
+                        Det var ingen harddisker eller disketter p&aring; disse f&oslash;rste maskinene, s&aring; det
+                        var
+                        ingen
+                        m&aring;te &aring;
+                        lagre data p&aring;. Tastaturet var plassert p&aring; frontpanelet p&aring; datamaskinen, som et
+                        sett
+                        med
+                        n&oslash;kkelbrytere. Hvis brukerne &oslash;nsket et standard tastatur, solgte IBM en konvertert
+                        elektrisk
+                        skrivemaskin, men da forsyningene var begrensede og produktet ikke var i h&oslash;y
+                        ettersp&oslash;rsel,
+                        m&aring;tte
+                        mange brukere konvertere sine egne elektriske skrivemaskiner hvis de &oslash;nsket et enklere
+                        &aring;
+                        bruke
+                        tastaturet for &aring; angi programmeringskode. I tillegg m&aring;tte et annet tastatur kobles
+                        til
+                        for
+                        datainnf&oslash;ring. Det ble ikke levert med kj&oslash;pet, noe som krevde at brukerne
+                        m&aring;tte
+                        bygge sine
+                        egne.
+                    </p>
+                    <p>&nbsp;</p><img src="./bilder/ibm-model-f.jpg" alt="F&oslash;rste data tastatur IBM model M">
+                    <p>
+                        1970-talls oppsett av Altair hjemmekontor. Hilsen av Computer History Museum.
+                        P&aring; slutten av 1970-tallet hadde Apple, Radio Shack og Commodore alle forutseende for
+                        &aring;
+                        se
+                        det
+                        store markedet for datamaskintastaturer, og begynte &aring; produsere tastaturer for
+                        datamaskinene
+                        sine, og banet vei for den moderne antagelsen om at alle datamaskiner har tastatur, og at
+                        tastaturer er den prim&aelig;re, standard inngangsenheten. Nedenfor er en Radio Shack-reklame
+                        fra
+                        1970-tallet for TRS-80.
+                        I 1981 ga IBM ut sin f&oslash;rste PC. I 1986 ble den utstyrt med Model M-tastaturet. Dette
+                        tastaturet
+                        var veldig vellykket fordi det var s&aring; enkelt &aring; bruke, at brukerne ikke trengte
+                        &aring;
+                        konvertere
+                        skrivemaskiner eller levere sin egen tastaturutforming som en inndataenhet for datamaskinene
+                        sine. Model M var et mekanisk tastatur, og brukte konstruksjon av h&oslash;yeste kvalitet, noe
+                        som
+                        ga
+                        typister tilfredsstillelsen av taktil tilbakemelding, akutt akkurat.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p> Model M var et mekanisk tastatur, og brukte konstruksjon av h&oslash;yeste kvalitet, noe som ga
+                        typister tilfredshet med taktil tilbakemelding, akutt n&oslash;yaktighet og komfort. Den eneste
+                        ulempen
+                        p&aring; dette tastaturet var at "Shift" og "Enter" -tastene angivelig var for sm&aring; for de
+                        fleste
+                        brukerens preferanser. P&aring; grunn av dette produserte og solgte IBM "Keytop Expanders" som
+                        passer
+                        over skiftet og skriver inn n&oslash;kkelbrytere for &aring; utvide tastene. Alle tastaturene
+                        p&aring;
+                        dette
+                        tidspunktet var begrenset ved at de bare ble tilbudt i to farger: beige og gr&aring;, helt til
+                        slutten
+                        av 1980-tallet da svart ble introdusert som et alternativ.
+                    </p>
+                    <h3 class="title"><a id="utvikling"></a> Utvikling til idag</h3>
+                    <img src="./bilder/apple_macintosh_plus_keyboa.jpg" alt="F&oslash;rste apple tastaturet">
+                    <p>
+                        P&aring; 1990-tallet begynte membranbrytere &aring; erstatte den mekaniske
+                        n&oslash;kkelbryteren, da
+                        den var
+                        stille, veide mindre og passet behovene til den nye b&aelig;rbare generasjonen. Dette var
+                        ogs&aring;
+                        en
+                        fordel for produsentene fordi membrantastaturer var mye billigere &aring; produsere. Dessverre
+                        falt
+                        kvaliteten p&aring; tastaturet betydelig da disse overfladiske tastaturestetikkene dominerte
+                        (slankere, roligere, lettere vekt, lettere &aring; v&aelig;re mobil med). Teknologien og
+                        mekanikken
+                        til
+                        disse tastaturene vil bli beskrevet i fremtidige kapitler, og informasjon om mekanisk
+                        tastatur
+                        finner du her: p&aring; v&aring;r mekaniske tastaturguide. Her er et bilde som viser den
+                        dramatiske
+                        forskjellen mellom tidlige mekaniske Apple-tastaturer (1983), og flere ti&aring;r senere de
+                        moderne
+                        ikke-mekaniske Apple-tastaturene (2010).
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Andre endringer i tastaturdesign, enten de forbedrer funksjonen eller ikke, har
+                        inkludert
+                        foldetastaturet, det vanntette (og vaskbare) tastaturet, tastaturet som ogs&aring; fungerer
+                        som en
+                        mus, tastaturer i tommelst&oslash;rrelse (for mobile enheter og reiser) og virtuelle
+                        ber&oslash;ringsskjermtastaturer.
+                    </p>
+                    <p>&nbsp;</p><img src="./bilder/lazer-keyboard.png" alt="lasertastatur">
+                    <p>
+                        Gjennom &aring;rene har det v&aelig;rt flere andre design som grenser til science fiction - som
+                        lasertastatur, det flygende tallerkenens tastatur, manetetastaturet og det fullt
+                        programmerbare LCD-n&oslash;kkelskjermbildet Optimus Maximus Keyboard. Det er tankevekkende
+                        &aring;
+                        se
+                        utviklingen av tastaturer n&aring;r det gjelder hvor de startet som teletypemaskiner og
+                        skrivemaskiner - til hvor de har utviklet seg til alle alternativene vi har bokstavelig
+                        talt
+                        innen fingertuppene.
+                    </p>
+                    <p>&nbsp;</p><img src="./bilder/crazy-keeb.jpg" alt="et fargerik tastatur">
+                    <p>
+                        Tastatur kommer i alle fasonger, st&oslash;rrelser og farger i disse dager, selv om det er
+                        viktig &aring;
+                        huske at uten de originale, enkle, kraftige mekaniske tastaturene til IBM, ville vi ikke
+                        v&aelig;re der vi er i dag. Med alle designinnovasjonene som produseres, er det ingen
+                        overraskelse
+                        at mange kreative tastaturfans har begynt &aring; dukke opp med sine egne oppfinnsomme
+                        modifikasjoner for &aring; forbedre skriveopplevelsen og estetikken. Richard &ldquo;Doc&rdquo;
+                        Nagy
+                        har
+                        tatt
+                        sin kreativitet og h&aring;ndverk til neste niv&aring; innen tastaturdesign og har bygget noen
+                        veldig
+                        interessante og oppfinnsomme tastaturmods som ser ut til &aring; ha reist tilbake i tid, med
+                        en
+                        paradoksalt futuristisk kant. Docs modifiserte mekaniske tastaturer er ekte kunstverk
+                        (og
+                        fullt funksjonelle), fra steampunk og art deco-tastaturer, til tastaturer med
+                        krabbelfliser
+                        for n&oslash;kler. Bes&oslash;k Docs nettsted, Datamancer.net for hans komplette galleri.
+                    </p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

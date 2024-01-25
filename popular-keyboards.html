@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastaturer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="https://use.fontawesome.com/e503b5e019.js"></script>
+    <link rel="icon" href="./bilder/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/groups/267449644283455">
+                <img src="./bilder/fb.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/MKeyboards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./bilder/tw.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/mechanical.keyboards/?hl=en">
+                <img src="./bilder/insta.png" alt="Instagram logo">
+            </a>
+        </div>
+        <div class="over-nav">
+            <div class="logo">
+                <img id="img" src="./bilder/logo.jpg" alt="Bilde av tastaturbrytere som har tastaturer p&amp;aring;">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="S&oslash;k...">
+                <div class="search"></div>
+            </div>
+        </div>
+        <img src="./bilder/line.png" alt="Gradient linje" id="gradientLine">
+        <nav class="flex-container">
+            <div class="home">
+                <a href="home.html"><i class="fa fa-home blue" aria-hidden="true"></i>Hjem </a>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='history.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    F&oslash;rste tastaturen</button>
+                <div class="dropdown-content">
+                    <a href="history.html#skrivemaskin"> Skrivemaskiner</a>
+                    <a href="history.html#data">F&oslash;rste data tastaturer </a>
+                    <a href="history.html#utvikling">Utvikling til idag </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='keycaps.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Keycaps</button>
+                <div class="dropdown-content">
+                    <a href="keycaps.html#pbt">Pbt</a>
+                    <a href="keycaps.html#abs">Abs</a>
+                    <a href="keycaps.html#metal">Metal</a>
+                    <a href="keycaps.html#gummi">Gummi </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='switches.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    Switches</button>
+                <div class="dropdown-content">
+                    <a href="switches.html#rubber-dome">Laptop brytere</a>
+                    <a href="switches.html#mekaniske-brytere">Mekaniske brytere</a>
+                    <a href="switches.html#popular">Popul&aelig;re brytere</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='cherrymx.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Cherry MX</button>
+                <div class="dropdown-content">
+                    <a href="cherrymx.html#Om-cherry-mx">Om CherryMx</a>
+                    <a href="cherrymx.html#Klassiske-brytere">Klassiske-brytere</a>
+                    <a href="cherrymx.html#Red">CherryMx Red</a>
+                    <a href="cherrymx.html#blue">CherryMx blue</a>
+                    <a href="cherrymx.html#Brown">CherryMx Brown</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='sizes.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    St&oslash;rrelser</button>
+                <div class="dropdown-content">
+                    <a href="sizes.html#full">Full St&oslash;rrelse</a>
+                    <a href="sizes.html#tkl">Tkl</a>
+                    <a href="sizes.html#60">60%</a>
+                    <a href="sizes.html#75">75%</a>
+                    <a href="sizes.html#40">40%</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='popular-keyboards.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Popul&aelig;re tastaturer</button>
+                <div class="dropdown-content">
+                    <a href="popular-keyboards.html#Razer">Razer</a>
+                    <a href="popular-keyboards.html#Ducky">Ducky </a>
+                    <a href="popular-keyboards.html#HyperX">HyperX</a>
+                    <a href="popular-keyboards.html#Corsair">Corsair</a>
+                    <a href="popular-keyboards.html#Annet">Andre</a>
+                </div>
+            </div>
+            <div class="dropdown-small">
+                <button class="dropbtn" onclick="location.href='home.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Meny</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Hjem</a>
+                    <a href="history.html">Historie </a>
+                    <a href="keycaps.html">Keycaps</a>
+                    <a href="switches.html">Brytere </a>
+                    <a href="cherrymx.html">Cherry Mx</a>
+                    <a href="sizes.html">St&oslash;rresler</a>
+                    <a href="popular-keyboards.html">Popul&aelig;re tastaturer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background">
+            <div class="layer">
+                <div class="article">
+                    <h2 class="title">Populare tastaturer</h2>
+                    <h3 class="title">Razer<a id="Razer"></a></h3>
+                    <p>
+                        En av de første merkene som ble utpekt for spillere, med sine rekonverterbare rgb-funksjoner, er
+                        Razer et veldig bra merkevare for tastaturer.
+                        De lager tastaturer med de spesifikke <a href="switches.html#popular">klikkbryterne</a> som har
+                        følelsen som ingen andre tastaturer har.
+                        De er fortsatt et av de mest populære merkene for tastaturer i dag.
+                        De mest kjente razertastaturene er razer blackwidow ultimate og razer huntsman.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Razer Huntsman også kommer i TKL størrelse, elite størrelse og mest popular mini (60%)
+                        størrelse
+                    </p>
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sVZXxbdLn7Q"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                        </iframe>
+                        <img class="types" class="pic-pop" src="./bilder/widowmaker.jpg" alt="Razer widowmaker tastatur">
+                        <img class="types" class="pic-pop" src="./bilder/huntsman.jpg" alt="Razer huntsman tastatur">
+                    </div>
+                    <a class="button" href="https://www.razer.com/gaming-keyboards-and-keypads">
+                        Kjøp Razer tastatuer</a>
+                    <h3 class="title">Ducky<a id="Ducky"></a></h3>
+
+                    <p>
+                        Ducky er et nytt merke som ble berømmet av Fortnite streamers, men tastaturet fortjener hypen.
+                        De er mest kjent for Ducky one 2 mini - et 60% tastatur med veldig lyse RGB-funksjoner.
+                        Dette tastaturet har startet populariteten til spillere som bruker 60% tastatur.
+                        De fleste sier at det ikke er så bra med et tastatur fordi det er hovedfunksjonen RGB, som ikke
+                        kan styres gjennom driveren, men bare gjennom selve tastaturet.
+                        Det kan ikke byttes ut med andre brytere, heks er en ønsket ting for mange brukere. Den leveres
+                        med CherryMx-brytere.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Frozen lama er en Fortnite insprert farge på tastaturen
+                    </p>
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pUOqmBbKn_8"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <img  class="types" class="pic-pop" src="./bilder/frozen-lama.jpg"
+                            alt="Ducky one 2 mini i Frozen Lama color layout">
+                        <img class="types" class="pic-pop" src="./bilder/ducky.jpg" alt="Ducky one 2 mini tastatur">
+                    </div>
+                    <a class="button" href="https://www.duckychannel.com.tw/en/Keyboards">
+                        Kjøp Ducky tastatuer</a>
+                    <h3 class="title">HyperX<a id="HyperX"></a></h3>
+                    <p>
+                    Hyperx er det neste store spillet etter Razer.
+                    Det gjør alle tingene du trenger for spill, inkludert tastaturer.
+                    De har ett hovedtastaturlegering som hetter Alloy i få varianter.
+                    I motsetning til andre selskaper fokuserer de mer på tastaturtilbehøret som keycap-avtrekker og
+                    keycaps, men Alloy-serien er heller ikke så ille.
+                    </p>
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7zb0Ua9R-Y4"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <img class="types"class="video right" src="./bilder/alloycore.jpg" alt="HyperX alloy core tastatur">
+                        <img class="types" class="video left" src="./bilder/alloyelite.jpg" alt="HyperX alloy elite tastatur">
+                    </div>
+                    <a  class="button" href="https://www.hyperxgaming.com/us/keyboards">Kjøp HyperX tastatuer</a>
+                    <h3  class="title" >Corsair<a id="Corsair"></a></h3>
+                    <p>
+                        Corsair er kjent som et gammelt pc-produsentfirma som lager veldig flotte og fungerende
+                        produkter til en noe høy pris.
+                        Og tastaturene deres er akkurat det. Mange sier at dette er tastaturer for menn, ikke barn fordi
+                        de kan tilpasses, men de er et flott bygg.
+                        De inkluderer avanserte deler og varer lenge.
+                    </p>
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eRvRs--AbuE"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <img class="types" class=”right”
+                            src="./bilder/corsair-vengeance-k65-compact-mechanical-gaming-keyboard-review.jpg"
+                            alt="Corsair Vengance tastatur">
+                        <img class="types" class=”left” src="./bilder/corsair.jpg" alt="Corsair K70 tastatur">
+                    </div>
+                    <a class="button"
+                        href="https://www.corsair.com/eu/en/Categories/Products/Gaming-Keyboards/c/Cor_Products_Keyboards">
+                        Kjøp Corsair tastatuer</a>
+
+                    <h3 class="title"><a id="Annet"></a>Annet</h3>
+                    <p>
+                        Ikke alle populære tastaturer er laget for å kjøpe et mainstream-merke som disse tidligere
+                        navngitte, så jeg bestemte meg for å inkludere noen andre populære tastaturer og likninger til
+                        hvor jeg skulle kjøpe dem bare fordi de er så gode at de fortjener anerkjennelsen.
+                        Noen av disse er de godt omtalte, hotswappable Gk61, Bluetooth Anne pro 2 og mange flere...
+                    </p>
+                    <div class="list">
+                        <a href="https://www.annepro.net/products/anne-pro-2">
+                            <h4>Anne pro 2</h4>
+                            <img class=”pic-pop” src="./bilder/annepro2.jpg" alt="Anne Pro 2">
+                        </a>
+                        <a href="https://www.pcgamingrace.com/collections/keyboard">
+                            <h4>Glorious GMMK</h4>
+                            <img class=”pic-pop” src="./bilder/gmmk.jpeg" alt="Glorious GMMK tastatur">
+                        </a>
+
+                        <a href="https://steelseries.com/gaming-keyboards/apex-pro-tkl">
+                            <h4>Steelseries apex pro</h4>
+                            <img class=”pic-pop” src="./bilder/apexpro.jpg" alt="steelseries Apex Pro tastatur">
+                        </a>
+                        <a href="https://www.logitech.com/en-us/product/k840-mechanical-corded-keyboard">
+                            <h4>Logitech K840</h4>
+                            <img class=”pic-pop” src="./bilder/k840-mechanical-pdp.png" alt="Logitech K840 tastatur">
+                        </a>
+                        <a href="https://en.varmilo.com/keyboardproscenium/subject_product_detailed?subjectid=244">
+                            <h4>Varmilo Mya Pro </h4>
+                            <img class=”pic-pop” src="./bilder/varmilo.jpg" alt="Varmilo Mya Pro tastatur">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

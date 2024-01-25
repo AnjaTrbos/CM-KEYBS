@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastaturer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="https://use.fontawesome.com/e503b5e019.js"></script>
+    <link rel="icon" href="./bilder/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/groups/267449644283455">
+                <img src="./bilder/fb.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/MKeyboards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./bilder/tw.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/mechanical.keyboards/?hl=en">
+                <img src="./bilder/insta.png" alt="Instagram logo">
+            </a>
+        </div>
+        <div class="over-nav">
+            <div class="logo">
+                <img id="img" src="./bilder/logo.jpg" alt="Bilde av tastaturbrytere som har tastaturer p&amp;aring;">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="S&oslash;k...">
+                <div class="search"></div>
+            </div>
+        </div>
+        <img src="./bilder/line.png" alt="Gradient linje" id="gradientLine">
+        <nav class="flex-container">
+            <div class="home">
+                <a href="home.html"><i class="fa fa-home blue" aria-hidden="true"></i>Hjem </a>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='history.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    F&oslash;rste tastaturen</button>
+                <div class="dropdown-content">
+                    <a href="history.html#skrivemaskin"> Skrivemaskiner</a>
+                    <a href="history.html#data">F&oslash;rste data tastaturer </a>
+                    <a href="history.html#utvikling">Utvikling til idag </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='keycaps.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Keycaps</button>
+                <div class="dropdown-content">
+                    <a href="keycaps.html#pbt">Pbt</a>
+                    <a href="keycaps.html#abs">Abs</a>
+                    <a href="keycaps.html#metal">Metal</a>
+                    <a href="keycaps.html#gummi">Gummi </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='switches.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    Switches</button>
+                <div class="dropdown-content">
+                    <a href="switches.html#rubber-dome">Laptop brytere</a>
+                    <a href="switches.html#mekaniske-brytere">Mekaniske brytere</a>
+                    <a href="switches.html#popular">Popul&aelig;re brytere</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='cherrymx.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Cherry MX</button>
+                <div class="dropdown-content">
+                    <a href="cherrymx.html#Om-cherry-mx">Om CherryMx</a>
+                    <a href="cherrymx.html#Klassiske-brytere">Klassiske-brytere</a>
+                    <a href="cherrymx.html#Red">CherryMx Red</a>
+                    <a href="cherrymx.html#blue">CherryMx blue</a>
+                    <a href="cherrymx.html#Brown">CherryMx Brown</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='sizes.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    St&oslash;rrelser</button>
+                <div class="dropdown-content">
+                    <a href="sizes.html#full">Full St&oslash;rrelse</a>
+                    <a href="sizes.html#tkl">Tkl</a>
+                    <a href="sizes.html#60">60%</a>
+                    <a href="sizes.html#75">75%</a>
+                    <a href="sizes.html#40">40%</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='popular-keyboards.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Popul&aelig;re tastaturer</button>
+                <div class="dropdown-content">
+                    <a href="popular-keyboards.html#Razer">Razer</a>
+                    <a href="popular-keyboards.html#Ducky">Ducky </a>
+                    <a href="popular-keyboards.html#HyperX">HyperX</a>
+                    <a href="popular-keyboards.html#Corsair">Corsair</a>
+                    <a href="popular-keyboards.html#Annet">Andre</a>
+                </div>
+            </div>
+            <div class="dropdown-small">
+                <button class="dropbtn" onclick="location.href='home.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Meny</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Hjem</a>
+                    <a href="history.html">Historie </a>
+                    <a href="keycaps.html">Keycaps</a>
+                    <a href="switches.html">Brytere </a>
+                    <a href="cherrymx.html">Cherry Mx</a>
+                    <a href="sizes.html">St&oslash;rresler</a>
+                    <a href="popular-keyboards.html">Popul&aelig;re tastaturer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="background">
+            <div class="layer">
+                <div class="article">
+                    <h2 class="title">Cherry Mx<a id="Om-cherry-mx"></a> </h2>
+                    <p>
+                        Cherry GmbH (tidligere Cherry Corporation og stilisert som CHERRY) er en tysk produsent av
+                        periferiutstyr. Selskapet har sine r&oslash;tter i USA og har hovedkontor i Tyskland. Det
+                        har
+                        flere
+                        kontorer i USA, Frankrike og Kina. De produserte et stort utvalg av produkter, inkludert
+                        sensorer,
+                        vibratorer og bilmoduler frem til 1976, da Peter Cherry, s&aring;nn av Walter L. Cherry,
+                        solgte
+                        selskapet
+                        sitt til ZF Friedrichshafen AG, en tysk leverand&oslash;r til bilindustrien. Cherry ble
+                        omdapt til ZF
+                        Electronics GmbH, mens Cherry-merket ble videref&oslash;rt bare for sine
+                        datamaskininngangsenheter.
+                        Siden
+                        begynnelsen av 2016 har denne produktlinjen operert uavhengig av markedet som Cherry Group.
+                        Etter et
+                        &aring;tte &aring;r langt samarbeid med ZF Friedrichshafen AG, ble Cherry (produsenten av
+                        datamaskininndataenhetene) solgt til GENUI Partners i oktober 2016.
+                    </p>
+                    <h3 class="title"><a id="Klassiske-brytere"></a>Klassiske brytere</h3>
+                    <p>
+                        Cherry MX-brytere ble utviklet og patentert p&aring; begynnelsen av 1980-tallet og ble
+                        forst
+                        markedsf&oslash;rt
+                        rundt 1985. P&aring; markedet for forbrukertastaturer blir Cherry MX-brytere ofte referert til
+                        av
+                        fargen
+                        p&aring; tastestammen - den delen av bryteren under tastaturet som beveger seg nedover n&aring;r
+                        du trykker
+                        p&aring;
+                        den.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Tastaturprodusenter som Cooler Master, Corsair og G.Skill bruker Cherrys Cherry MX-brytere i
+                        designen eller "imiterer dem", som Razers Kale Green-brytere i den f&oslash;rste generasjonen
+                        Razer
+                        Blackwidow Chroma. Cherry selger sine egne tastaturer i "beskjedne volumer." MX 10.
+                        TKL-tastaturet
+                        mangler snarveis-delen av tastaturet. I 2018 introduserte selskapet mekaniske tastaturbrytere
+                        for
+                        tynnere tastaturer. Det gj&oslash;r sine Cherry MX Silent-brytere, eller Pink-brytere, som et
+                        utvalg
+                        p&aring;
+                        tastaturer som Corsair K70.
+                    </p>
+                    <p>&nbsp;</p>
+                    De vanligste Cherry MX-bryterne er:
+                    <ul>
+                        <li>Line&aelig;r</li>
+                        <li>R&oslash;d</li>
+                        <li>Silent Red</li>
+                        <li>Speed Silver</li>
+                        <li>Natur Hvit</li>
+                        <li>Svart</li>
+                        <li>Silent Black</li>
+                        <li>Line&aelig;r gr&aring;</li>
+                        <li>Taktil, ikke-klikkende</li>
+                        <li>brun</li>
+                        <li>Klar</li>
+                        <li>Taktil gr&aring;</li>
+                        <li>Taktil og Clicky</li>
+                        <li>Bl&aring;</li>
+                        <li>Hvit</li>
+                        <li>Gr&oslash;nn</li>
+
+                    </ul>
+                    <p>
+                        Cherry MX Grey-brytere finnes i varianter Linear, Tactile og Clicky. De er preget av stilkfarge,
+                        med
+                        line&aelig;r m&oslash;rkere enn taktil. Clicky-versjonen er ikke lenger laget. Det diskuteres om
+                        det
+                        til og
+                        med
+                        klikker, siden det ikke er oppf&oslash;rt som et "klikk" -bryter av Cherry i deres "Keymodule
+                        MX-brosjyre"
+                        fra 1994, sammen med MX Whites, som er smurt for &aring; redusere klikket. Gitt deres bruk
+                        hovedsakelig i
+                        store taster som Space Bar, blir f&oslash;lelsen valgt for &aring; matche den for de andre
+                        tastene
+                        p&aring;
+                        brettet.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Andre typer Cherry MX-brytere, som gr&oslash;nn og gr&aring;, brukes til st&oslash;rre taster
+                        (mellomrom, &#8679; Shift, &#8629;
+                        Enter, etc.). F&oslash;lelsen av Cherry MX gr&oslash;nne brytere sammenlignes ofte med
+                        "knekkfj&aelig;ren" -bryterne
+                        p&aring;
+                        originale IBM Model M-tastaturer. Kirseb&aelig;rbrytere har en annonsert levetid p&aring; opptil
+                        100
+                        millioner
+                        aktiveringer, avhengig av brytertype.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Den h&oslash;rbare og taktile naturen til hver bryter, og mengden kraft som trengs for &aring;
+                        aktivere den,
+                        varierer avhengig av brytertype.
+                    </p>
+
+                    <h3 class="title"><a id="Red"></a>Cherry MX Red</h3>
+                    <img src="./bilder/CHERRY_MX1A-L1N_01.png" alt="CherryMX r&oslash;d">
+                    <p>
+                        Cherry MX Red-bryterne ligner p&aring; Cherry MX Black. De er line&aelig;re brytere uten
+                        tilbakemelding.
+                        Forskjellen til Cherry MX Black er den mye mindre aktiveringskraften p&aring; 45 cN. Siden dette
+                        muliggj&oslash;r
+                        en raskere aktivering, brukes Cherry MX Red ogs&aring; mest i spilltastaturer.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Siden august 2015 er det ogs&aring; en st&oslash;ydempet versjon av bryteren, Cherry MX Red
+                        Silent.
+                    </p>
+                    <h3 class="title"><a id="Brown"></a>Cherry MX brown</h3>
+                    <img src="./bilder/brown.jpg" alt="brun cherrymx bryter">
+                    <p>
+                        Cherry MX Brown er en av de mest popul&aelig;re byttetypene akkurat n&aring;. Sannsynligvis
+                        fordi bryteren
+                        representerer en ganske fin hybrid mellom spill og skriving. Bryteren gir en taktil
+                        tilbakemelding,
+                        men genererer ikke en lyd som Cherry MX Blue. Bryteren tillater hurtigtastetrykk i spill, noe
+                        som
+                    </p>
+                    gj&oslash;r dem ideelle for MOBA, MMO, RTS og lignende sjangre.
+                    <p>&nbsp;</p>
+                    <p>
+                        I tillegg brukes de ofte i milj&oslash;er der Cherry MX Blue-bryterne er for h&oslash;ye, men
+                        det er
+                        raskt &aring;
+                        skrive.
+                    </p>
+                    <h3 class="title"><a id="blue"></a> Cherry MX blue</h3>
+                    <img src="./bilder/blue.png" alt="Bl&aring; cherrymx bryter">
+                    <p>
+                        Cherry MX Blue er den foretrukne brytertypen for de fleste skriveentusiaster. Cherry MX Blue gir
+                        taktil tilbakemelding og en h&oslash;y og tydelig klikkelyd. Disse bryterne s&oslash;rger for at
+                        du
+                        gjenkjenner &aring;
+                        treffe aktiveringspunktet og tillater derfor veldig rask &aring; skrive.
+                        Det kan ta litt &oslash;velse &aring;
+                        slutte &aring;
+                        trykke p&aring; tasten n&aring;r du treffer aktiveringspunktet, men n&aring;r du f&oslash;rst er
+                        mestret, vil du sikkert
+                        skrive tekster som en profesjonell sekret&aelig;r. I tillegg er det veldig tilfredsstillende
+                        &aring; h&oslash;re
+                        klikklyden. &Aring; skrive p&aring; et vanlig tastatur f&oslash;les ganske kjedelig, en gang
+                        vant til et tastatur
+                        med
+                        Cherry MX Blue-brytere.
+                        Selv om Cherry MX Blue-bryterne er veldig bra for typister, betyr det ikke at de er
+                        d&aring;rlige for
+                        spillere. Det er faktisk mange spilltastaturer som bruker dem, men de m&aring; konkurrere med
+                        mange
+                        andre
+                        hybridbrytere om deres plass.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        En ting &aring; huske p&aring;: Tastatur med Cherry MX Blue-brytere er vanligvis ganske
+                        h&oslash;ye,
+                        og derfor kan
+                        klikkelyden v&aelig;re irriterende eller distraherende for kolleger eller familiemedlemmer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+
+</html>

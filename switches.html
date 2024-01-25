@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastaturer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="https://use.fontawesome.com/e503b5e019.js"></script>
+    <link rel="icon" href="./bilder/icon.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/groups/267449644283455">
+                <img src="./bilder/fb.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/MKeyboards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./bilder/tw.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/mechanical.keyboards/?hl=en">
+                <img src="./bilder/insta.png" alt="Instagram logo">
+            </a>
+        </div>
+        <div class="over-nav">
+            <div class="logo">
+                <img id="img" src="./bilder/logo.jpg" alt="Bilde av tastaturbrytere som har tastaturer p&amp;aring;">
+            </div>
+            <div class="container">
+                <input type="text" placeholder="S&oslash;k...">
+                <div class="search"></div>
+            </div>
+        </div>
+        <img src="./bilder/line.png" alt="Gradient linje" id="gradientLine">
+        <nav class="flex-container">
+            <div class="home">
+                <a href="home.html"><i class="fa fa-home blue" aria-hidden="true"></i>Hjem </a>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='history.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    F&oslash;rste tastaturen</button>
+                <div class="dropdown-content">
+                    <a href="history.html#skrivemaskin"> Skrivemaskiner</a>
+                    <a href="history.html#data">F&oslash;rste data tastaturer </a>
+                    <a href="history.html#utvikling">Utvikling til idag </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='keycaps.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Keycaps</button>
+                <div class="dropdown-content">
+                    <a href="keycaps.html#pbt">Pbt</a>
+                    <a href="keycaps.html#abs">Abs</a>
+                    <a href="keycaps.html#metal">Metal</a>
+                    <a href="keycaps.html#gummi">Gummi </a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='switches.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    Switches</button>
+                <div class="dropdown-content">
+                    <a href="switches.html#rubber-dome">Laptop brytere</a>
+                    <a href="switches.html#mekaniske-brytere">Mekaniske brytere</a>
+                    <a href="switches.html#popular">Popul&aelig;re brytere</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='cherrymx.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Cherry MX</button>
+                <div class="dropdown-content">
+                    <a href="cherrymx.html#Om-cherry-mx">Om CherryMx</a>
+                    <a href="cherrymx.html#Klassiske-brytere">Klassiske-brytere</a>
+                    <a href="cherrymx.html#Red">CherryMx Red</a>
+                    <a href="cherrymx.html#blue">CherryMx blue</a>
+                    <a href="cherrymx.html#Brown">CherryMx Brown</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pink">
+                <button class="dropbtn" onclick="location.href='sizes.html'"><i class="fa fa-bars pink"
+                        aria-hidden="true"></i>
+                    St&oslash;rrelser</button>
+                <div class="dropdown-content">
+                    <a href="sizes.html#full">Full St&oslash;rrelse</a>
+                    <a href="sizes.html#tkl">Tkl</a>
+                    <a href="sizes.html#60">60%</a>
+                    <a href="sizes.html#75">75%</a>
+                    <a href="sizes.html#40">40%</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-blue">
+                <button class="dropbtn" onclick="location.href='popular-keyboards.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Popul&aelig;re tastaturer</button>
+                <div class="dropdown-content">
+                    <a href="popular-keyboards.html#Razer">Razer</a>
+                    <a href="popular-keyboards.html#Ducky">Ducky </a>
+                    <a href="popular-keyboards.html#HyperX">HyperX</a>
+                    <a href="popular-keyboards.html#Corsair">Corsair</a>
+                    <a href="popular-keyboards.html#Annet">Andre</a>
+                </div>
+            </div>
+            <div class="dropdown-small">
+                <button class="dropbtn" onclick="location.href='home.html'"><i class="fa fa-bars blue"
+                        aria-hidden="true"></i>
+                    Meny</button>
+                <div class="dropdown-content">
+                    <a href="home.html">Hjem</a>
+                    <a href="history.html">Historie </a>
+                    <a href="keycaps.html">Keycaps</a>
+                    <a href="switches.html">Brytere </a>
+                    <a href="cherrymx.html">Cherry Mx</a>
+                    <a href="sizes.html">St&oslash;rresler</a>
+                    <a href="popular-keyboards.html">Popul&aelig;re tastaturer</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background">
+            <div class="layer">
+                <div class="article">
+                    <h2 class="title">Brytere</h2>
+                    <p>
+                        Datatastaturer kan klassifiseres etter bryterteknologien de bruker. Datamaskinens alfanumeriske
+                        tastaturer har vanligvis 80 til 110 holdbare brytere, vanligvis en for hver tast. Valget av
+                        bryterteknologi påvirker nøkkelrespons (den positive tilbakemeldingen om at en tast har blitt
+                        trykket) og forhåndsreise (avstanden som trengs for å trykke på tasten for å legge inn et tegn
+                        pålitelig). Noen nyere tastaturmodeller bruker hybrider av forskjellige teknologier for å oppnå
+                        større kostnadsbesparelser.
+                    </p>
+                    <h3 class="title"><a id="rubber-dome"></a>Rubber dome brytere eller Laptop brytere</h3>
+                    <p> <img src="./bilder/rubber-dome.jpg" alt="Rubber dome bryter">
+                        Dome-switch tastaturer er en hybrid av flatpanelmembran og mekaniske switch-tastaturer. De
+                        bringer to kretskortspor sammen under et gummi- eller silikontastatur ved hjelp av metall "dome"
+                        -brytere eller polyuretanformede kupler. Metallkuppelbryterne er dannede deler av rustfritt stål
+                        som, når de komprimeres, gir brukeren en skarp, positiv taktil tilbakemelding. Disse
+                        metalltypene på kuppelbrytere er veldig vanlige, er vanligvis pålitelige i over 5 millioner
+                        sykluser, og kan plates i enten nikkel, sølv eller gull. Gummikuppelbryterne, ofte referert til
+                        som polydomer, er dannet polyuretankupler der den indre boblen er belagt med grafitt. Mens
+                        polydomer vanligvis er billigere enn metallkupler, mangler de skarpe snap av metallkuplene, og
+                        har vanligvis en lavere levetidsspesifikasjon. Polydomes regnes som veldig stille, men purister
+                        har en tendens til å finne dem "grøtete" fordi den kollapsende kuppelen ikke gir like mye
+                        positiv respons som metallkuppler. For enten metall eller polydomer, når en tast trykkes ned,
+                        kollapser den kuppelen, som forbinder de to kretssporene og fullfører tilkoblingen for å komme
+                        inn i tegnet. Mønsteret på PC-kortet er ofte gullbelagt.
+                        Begge er vanlige bryterteknologier som brukes i massemarkedstastaturer i dag. Denne typen
+                        bryterteknologi er tilfeldigvis mest brukt i håndholdte kontrollere, mobiltelefoner,
+                        bilindustri,
+                        forbrukerelektronikk og medisinsk utstyr. Dome-switch-tastaturer kalles også
+                        direkte-switch-tastaturer.
+                    </p>
+                    <h3 class="title"><a id="mekaniske-brytere"></a>Mekaniske brytere</h3>
+                    <img src="./bilder/gaming-keyboard-key-comparison.png" alt="4 Typer av cherrymx brytere">
+                    <p>
+                        Hver tast på et tastatur med mekanisk bryter inneholder en komplett bryter under. Hver bryter er
+                        sammensatt av et hus, en fjær og en stilk, og noen ganger andre deler som et separat taktilt
+                        blad eller en klikkbar. Brytere kommer i tre varianter: "lineær" med jevn motstand, "taktil" med
+                        en ikke-hørbar bump, og "clicky" med både en bump og en hørbar klikk. Avhengig av fjærens
+                        motstand krever nøkkelen forskjellige mengder trykk for å aktivere og bunnen ut. Stilkenes form,
+                        så vel som bryterhusets utforming, varierer aktiveringsavstanden og kjøreavstanden til bryteren.
+                        Mengden lyd som produseres ved aktivering kan også endres ved tilsetning av gummidempere. Som
+                        andre typer tastaturer, tillater mekaniske tastaturer å fjerne og bytte ut tastaturlokk, men å
+                        erstatte dem er mer vanlig med mekaniske tastaturer på grunn av vanlige stilkformer.
+                        Mekaniske tastaturer har vanligvis lengre levetid enn membran- eller dome-switch-tastaturer.
+                        Cherry
+                        MX-brytere har for eksempel en forventet levetid på 50 millioner klikk per bryter, mens brytere
+                        fra
+                        Razer har en nominell levetid på 60 millioner klikk per bryter.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Den viktigste nåværende produsenten av mekaniske brytere er Cherry. Alps Electric, en tidligere
+                        storprodusent, avsluttet produksjonen på begynnelsen av 2000-tallet, men Alps-stilbrytere blir
+                        fortsatt laget av andre selskaper som Matias, Xiang Min (XM), Tai-Hao (APC) og Hua-Jie (AK).
+                        bryterprodusenter inkluderer Gateron, Kaihua (Kailh), Gaote (Outemu), Greetech, TTC og Omron.
+                    </p>
+
+                    <h3 class="title">Deler av mekaniske brytere</h3>
+                    <img src="./bilder/Ah3myAVbMvyxzDaoHXytR5-970-80.gif" alt="GIF av en tastaturbryter">
+                    <p>
+                        Før vi graver inn i de forskjellige brytertyper, la oss få det grunnleggende ut av veien. En
+                        konvensjonell mekanisk bryter kan deles inn i følgende nøkkeldeler, bestilt fra topp til bunn:
+                    </p>
+                    <p>&nbsp;</p>
+                    <dl>
+                        <dt>Keycap.</dt>
+                        <dd>Topplokket i plast med bokstavtrykk.</dd>
+                        <dt>Stilk.</dt>
+                        <dd>Dette er hva nøkkelkappen er montert på. Formen på stilken er forskjellig fra bryter til
+                            bryter. </dd>
+                        <dt>Bytt hus.</dt>
+                        <dd>Saken som holder alle komponentene sammen.</dd>
+                        <dt>Glidebryter.</dt>
+                        <dd> Glideren skyver mot fjæren og avbryter forbindelsen mellom metallkontaktbladene
+                            montert på siden av bryteren.</dd>
+                        <dt>Blader av metallkontakt.</dt>
+                        <dd>Dette er det som registrerer et tastetrykk når de treffer hverandre.</dd>
+                        <dt>Spring.</dt>
+                        <dd> Fjæren brytes rundt bunnen av glidebryteren og skyver bryteren tilbake i
+                            hvilestilling
+                            etter utløsing</dd>
+                    </dl>
+                    <h3 class="title"><a id="popular"></a>Populare brytere</h3>
+                    <h4><a href="cherrymx.html">CherryMX</a></h4>
+                    <h4 class="title">Razer</h4>
+                    <img src="./bilder/razerswitch.png" alt="razer brytere">
+                    <p>
+                        Helt siden 2014 har Razer produsert mekaniske brytere for tastaturene internt. De resulterende
+                        bryterne er responsive, komfortable og uten tvil mer holdbare enn Cherry-nøkler. I testene mine
+                        har de alltid falt litt utenfor autentiske Cherry MX-brytere, men de er fortsatt et langt syn
+                        bedre enn Razers gamle membranmodeller.
+                        Razer Orange-brytere er et roligere alternativ til De Grønne, med en litt lavere
+                        aktiveringskraft på 45 g. Oransje brytere er taktile, men gir knapt noen lyd, noe som gjør dem
+                        bedre egnet for kontormiljøer eller hjem med lette sviller.
+                        Razer Yellow bytter primært FPS-spillere. I motsetning til de grønne og oransje bryterne, er
+                        Razer Yellows lineære. De krever 45 g aktiveringskraft. Razer sier mangelen på en taktil støt
+                        vil gjøre gule mer attraktive for spillere som trenger å trykke nøklene kraftig og ofte.
+                    </p>
+                    <h4 class="title">Logitech</h4>
+                    <img src="./bilder/logitechswitch.jpg" alt="logitech switch">
+                    <p>
+                        Logitech konstruerte sine proprietære Romer-Gs fra bunnen av for å tilby nøkkelbrytere som vil
+                        være til fordel for spillere spesielt. (Kirsebær, som både fans og motstandere har påpekt, har
+                        alltid vært designet med tanke først og fremst.) En taktil, stille bryter som krever 45 g
+                        aktiveringskraft, Romer-Gs ligner på Cherry MX Browns, men våren tilbake litt raskere.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Nyere Logitech-tastaturer bruker enten GL- eller GX-brytere, som varierer i stil og følelse,
+                        avhengig av hvilken type du får. GL-brytere bruker tynne nøkkelord, mens GX-brytere er litt mer
+                        tradisjonelle. Navnene som er lagt til hver bryter - lineær, taktil, klikkende og så videre -
+                        vil
+                        hjelpe deg med å bestemme hvordan tastene føles og høres ut.
+                    </p>
+                    <h4 class="title">Khalih</h4>
+                    <img src="./bilder/khalih.jpg" alt="Kailh brytere">
+                    <p>
+                        Mange andreleders perifere selskaper holder kostnadene lave ved å bruke Greetech- eller
+                        Kailh-brytere i stedet for Cherry MX-er. Greetech og Kailh er begge billige kinesiske
+                        brytermerker. Jeg nøler med å si "billig", fordi begge merkene føles bra; de er bare ikke
+                        premiumprodukter. Greetech og Kailh-brytere imiterer vanligvis kirsebærfarger og stiler, noe som
+                        betyr at en Greetech Red vil føles som en Cherry MX Red, en Kailh Brown vil føles som en Cherry
+                        MX Brown og så videre.
+                        Hvis du har pengene, vil jeg anbefale å gå til en periferiutstyr med autentiske Cherry
+                        MX-brytere. Men hvis det ikke er et alternativ av en eller annen grunn (Cherry-brytere er ofte
+                        mangelvare, blant annet), gjør Greetech og Kailh akseptable erstatninger.
+                    </p>
+                    <h4 class="title">Gateron</h4>
+                    <img src="./bilder/Gateron-Switches-1.png" alt="Gateron-brytere">
+                    <p>
+                        Gateron har dusinvis av brytere tilgjengelig i oppstillingen, inkludert standard rød, blå, brun,
+                        grønn, svart, gul bryter og deres egne unike Gateron melk, blekk, lavprofil og stille
+                        bryterdesign.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Uansett hvilken type Gateron-bryter, kan du være trygg på at du får en levetid på 50 millioner
+                        tastetrykk for hver bryter. Gateron er kjent for å ha noen av de jevneste tastetrykkene på
+                        markedet.
+                        Med 20 års erfaring med å produsere brytere, er Gateron MX-stil SMD-LED-kompatibel bryter kjent
+                        for sin pålitelighet med en levetid på 50 millioner tastetrykk for hver bryter.
+                        Derfor har vi innlemmet Gateron-brytere i hele produktlinjen vår og har blitt anerkjent av mange
+                        store påvirkere og medier, inkludert Marques Brownlee, The Next Web, Cult of Mac og CNN etc.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

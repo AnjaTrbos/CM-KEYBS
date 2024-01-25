@@ -1,0 +1,267 @@
+/* over navbar */
+
+.social-media {
+	float: right;
+	display: flex;
+}
+
+.social-media img {
+	width: 50%;
+}
+
+#img {
+	width: 80%;
+}
+
+.logo {
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.over-nav {
+	margin-left: 130px;
+	display: flex;
+	align-items: flex-start;
+}
+
+#gradientLine {
+	width: 100%;
+}
+
+
+/* navbar */
+
+.flex-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+/* dropdown and dropdown buttons */
+
+.dropbtn {
+	background-color: white;
+	padding: 15px;
+	border: solid gray;
+	color: black;
+	font-size: 16px;
+	font-family: Com;
+	text-decoration: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	color: black;
+	font-size: 16px;
+	font-family: Com;
+	text-decoration: none;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: Com;
+	font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: rgba(128, 128, 128, 0.577);
+	cursor: pointer;
+}
+
+.fa-bars,
+.fa-home {
+	padding-right: 10px;
+}
+
+.home {
+	border: solid gray;
+	padding: 10px;
+	letter-spacing: 3px
+}
+
+.home a {
+	color: black;
+	text-decoration: none;
+	font-family: Com;
+}
+
+
+/* blue dropdown */
+
+.blue {
+	color: cyan;
+}
+
+.dropdown-blue .dropdown-content {
+	background-color: rgb(52, 173, 173)
+}
+
+.dropdown-blue .dropdown-content a {
+	border: solid cyan;
+}
+
+
+/* pink dropdown */
+
+.pink {
+	color: magenta;
+}
+
+.dropdown-pink .dropdown-content {
+	background-color: #ff73ff;
+}
+
+.dropdown-pink .dropdown-content a {
+	border: solid magenta;
+}
+
+
+/* other versions */
+
+@media(min-width:1400px) {
+	.dropdown-small {
+		display: none;
+	}
+}
+
+@media(max-width:900px) {
+	#img {
+		width: 100%;
+		margin-left: 20%;
+	}
+	.home {
+		display: none;
+	}
+	.dropdown {
+		display: none;
+	}
+	.flex-container {
+		background-color: white;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		display: flex;
+		flex-direction: column;
+	}
+	nav a {
+		border: solid gray;
+	}
+	.dropdown-small {
+		position: relative;
+		display: inline-block;
+		color: black;
+		font-size: 16px;
+		font-family: Com;
+		text-decoration: none;
+	}
+	.dropbtn {
+		width: 100%;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: lightgray;
+		border: solid black;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		width: 100%;
+	}
+	.dropdown-content a {
+		text-align: center;
+	}
+	.dropdown-content a:hover {
+		background-color: grey
+	}
+	.dropdown-small:hover .dropdown-content {
+		display: block;
+	}
+	.dropdown-small:hover .dropbtn {
+		background-color: cyan;
+	}
+}
+
+@media(max-width:600px) {
+	.social-media {
+		width: 40%;
+	}
+	.over-nav {
+		margin-left: 0;
+	}
+	#img {
+		margin-right: 70%;
+		margin-left: 10%;
+		width: 150%;
+	}
+	.dropdown-blue {
+		display: none;
+	}
+	.dropdown-pink {
+		display: none;
+	}
+	.home {
+		display: none;
+	}
+	.flex-container {
+		background-color: white;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		display: flex;
+		flex-direction: column;
+	}
+	nav a {
+		padding-bottom: 10px;
+	}
+	.dropdown-small {
+		position: relative;
+		display: inline-block;
+		color: black;
+		font-size: 16px;
+		font-family: Com;
+		text-decoration: none;
+	}
+	.dropbtn {
+		width: 100%;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: lightgray;
+		border: solid black;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		width: 100%;
+	}
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+	}
+	.dropdown-content a:hover {
+		background-color: grey
+	}
+	.dropdown-small:hover .dropdown-content {
+		display: block;
+	}
+	.dropdown-small:hover .dropbtn {
+		background-color: cyan;
+	}
+}
